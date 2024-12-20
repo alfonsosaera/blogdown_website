@@ -18,9 +18,9 @@ You can also embed plots. See Figure <a href="#fig:plot">1</a> for example:
 ``` r
 library( ggplot2 )
 data.frame( x = -10:10, y = (-10:10)^3 ) |>
-  ggplot( aes(x=x, y=y), color = 'lightblue' ) +
-  geom_point() +
-  geom_line() +
+  ggplot( aes(x=x, y=y) ) +
+  geom_point( color = 'lightblue' ) +
+  geom_line( color = 'lightblue' ) +
   theme_bw()
 ```
 

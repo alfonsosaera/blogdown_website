@@ -1,0 +1,25 @@
+---
+title: New Post Test
+author: 'Alfonso Saera vila'
+date: '2024-12-20'
+slug: hi-hugo
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Including Plots - Test 2
+
+You can also embed plots. See Figure \@ref(fig:plot) for example:
+
+```{r plot, fig.cap='A fancy pie chart.', tidy=FALSE}
+library( ggplot2 )
+data.frame( x = -10:10, y = (-10:10)^2 ) |>
+  ggplot( aes(x=x, y=y) ) +
+  geom_point()
+```
+

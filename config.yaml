@@ -13,9 +13,9 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://github.com/alfonsosaera
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/alfonso-saera-vila-6bb1a651/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5

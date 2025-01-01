@@ -1,0 +1,30 @@
+---
+title: Scheduled Post 3
+author: Alfonso Saera Vila
+date: '2024-12-31'
+slug: scheduled-post-3
+categories:
+  - R
+tags:
+  - R Markdown
+  - plot
+  - regression
+publishdate: '2024-12-31'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Scheduled post
+
+This post is scheduled to be published in the day before it was created.
+Includes a Figure \@ref(fig:plot) generated from code
+
+```{r plot, fig.cap='A fancy plot.', tidy=FALSE}
+library( ggplot2 )
+data.frame( x = -10:10, y = (-10:10)^2 ) |>
+  ggplot( aes(x=x, y=y) ) +
+  geom_point()
+```
+

@@ -1,7 +1,7 @@
 ---
 title: Scheduled Post
 author: 'Alfonso Saera Vila'
-date: '2024-12-31'
+date: '2025-01-01'
 slug: scheduled-post
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]

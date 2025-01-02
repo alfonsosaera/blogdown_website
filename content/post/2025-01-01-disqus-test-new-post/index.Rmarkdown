@@ -1,0 +1,36 @@
+---
+title: disqus test - new post
+author: Alfonso Saera Vila
+date: '2025-01-01'
+slug: disqus-test-new-post
+categories:
+  - R
+tags:
+  - R Markdown
+  - plot
+  - regression,
+publishdate: "2025-01-01"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Test post
+
+This is a new post to test adding the following code to `layouts/partials/foot_custom.html`
+
+```{}
+{{ template "_internal/disqus.html" . }}
+```
+
+Includes a Figure \@ref(fig:plot) generated from code
+
+```{r plot, fig.cap='A fancy plot.', tidy=FALSE}
+library( ggplot2 )
+data.frame( x = -10:10, y = (-10:10)^2 ) |>
+  ggplot( aes(x=x, y=y) ) +
+  geom_point()
+```
+

@@ -2,6 +2,9 @@ baseurl: /
 languageCode: en-US
 title: "Omics: Love, Death & Code"
 theme: hugo-lithium
+disqus:
+  Shortname: alfonsosaera
+comments: "true"
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$

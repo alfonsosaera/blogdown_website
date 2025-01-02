@@ -23,6 +23,12 @@ This is a new post to test adding the following code to `layouts/partials/foot_c
 {{ template "_internal/disqus.html" . }}
 ```
 
+and the following lines to the config.yaml file
+```{}
+disqusShortname: alfonsosaera
+comments: "true"
+```
+
 Includes a Figure <a href="#fig:plot">1</a> generated from code
 
 

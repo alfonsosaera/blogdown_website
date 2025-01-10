@@ -1,1 +1,3 @@
-{{ template "_internal/disqus.html" . }}
+{{ if and (eq .Type "post") (or (eq .Params.comments true) (not (isset .Params "comments"))) }}
+  {{ template "_internal/disqus.html" . }}
+{{ end }}

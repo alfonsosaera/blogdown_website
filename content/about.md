@@ -6,13 +6,16 @@ title: About
 
 This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
 
+This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
 
+This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var reactionsDiv = document.getElementById('reactions');
-    if (reactionsDiv) {
-      reactionsDiv.remove(); // remove the div
+    var commentsDiv = document.getElementById('comments');
+    if (commentsDiv) {
+      commentsDiv.style.display = 'none'; // Hides the div 
+      // commentsDiv.remove(); // remove the div
     }
   });
 </script>
